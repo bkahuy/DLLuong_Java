@@ -18,7 +18,7 @@ public class Nhanvien extends Person{
         this.luong = 0;
     }
 
-    public Nhanvien(String diachi, long luong, String manv, String hoten) {
+    public Nhanvien(String manv, String hoten, String diachi, long luong) {
         super(manv, hoten);
         this.diachi = diachi;
         this.luong = luong;
